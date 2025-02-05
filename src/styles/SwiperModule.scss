@@ -1,0 +1,59 @@
+/* Style for the Swiper container */
+.mySwiperContainer {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+
+  
+  /* Style for the Swiper slides */
+  .swiper-slide {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Style for images inside slides */
+  .slides img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* Swiper navigation buttons */
+  .swiper-button-next,
+  .swiper-button-prev {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8a8888ce;
+    margin: 0 10px;
+    font-size: 100px !important;
+    padding: 5px;
+  }
+  
+  /* Pagination dots */
+  .swiper-pagination-bullet {
+    background: #494949;
+    opacity: 0.6;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #ffffff;
+    opacity: 1;
+  }
+  

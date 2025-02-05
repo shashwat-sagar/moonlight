@@ -1,0 +1,81 @@
+
+.swiper {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+  }
+  
+  .swiper-slide {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+    color: var(--white);
+    font-family: var(--fontFamily-forum);
+
+  }
+  
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+   
+    background-image: url("../assets/images2/b11.jpg");
+    opacity: 0.7;
+    pointer-events: none;
+  }
+  .content-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Align to the left */
+    height: 100%;
+    padding: 0 20px;
+    
+  }
+  .title {
+    font-size: var(--fontSize-headline-1);
+    font-weight: var(--weight-bold);
+    line-height: var(--lineHeight-1);
+    letter-spacing: var(--letterSpacing-5);
+  }
+  
+ .subtitle {
+    margin-top: 20px;
+    font-size: var(--fontSize-display-2);
+    font-weight: var(--weight-bold);
+    line-height: var(--lineHeight-2);
+    letter-spacing: var(--letterSpacing-5);
+    
+  }
+  
+   .bannerText {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    font-weight: var(--weight-regular);
+    line-height: var(--lineHeight-3);
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    width: 50rem
+    
+  }
+  .swiper-button-next,
+.swiper-button-prev {
+  color: #ff0000; // Change this to your desired color
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px; // Adjust the size if needed
+}
+  

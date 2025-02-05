@@ -1,0 +1,70 @@
+.bgImg {
+  background-image: url(../../assets/images2/goldRing.png);
+  // background-position: center;
+  background-size: cover;
+  position: absolute;
+  background-repeat: no-repeat;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+  z-index: -1; /* To ensure it stays behind other content */
+}
+.feature-Title {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: var(--fontFamily-dm_sans);
+  font-size: var(--fontSize-title-1);
+  letter-spacing: var(--letterSpacing-1);
+  font-weight: 600;
+}
+
+.feature-CardTxt {
+  font-family: var(--fontFamily-dm_sans);
+  font-size: var(--fontSize-body-3);
+  letter-spacing: var(--letterSpacing-1);
+}
+.feature-CardDes {
+  font-family: var(--fontFamily-dm_sans);
+  font-size: var(--fontSize-label-1);
+  letter-spacing: var(--letterSpacing-1);
+  color: #afadad;
+}
+.feature-Date-Main{
+  width: 100%;
+}
+.feature-Date-c {
+  border: 2px solid var(--gold-crayola);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  margin-bottom: 3rem;
+}
+.feature-Date-inner {
+  width: 100%;
+  background: var(--gold-crayola);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.5rem 0;
+  gap: 2rem;
+}
+.feature-Date-Txt {
+  color: #000;
+  padding: 0 20px;
+  transition: var(--transition-2);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  font-family: var(--fontFamily-dm_sans);
+  font-size: var( --fontSize-body-3);
+  letter-spacing: var(--letterSpacing-1);
+  font-weight: 600;
+  text-align: center;
+
+}
+.feature-Date-Txt:hover {
+  border-color: #000;
+}

@@ -1,0 +1,57 @@
+// filepath: /d:/my projects/CatreersReact/src/pages/Home.scss
+.home-carousel {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Optional: background color */
+  }
+  
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .home-Menu-Subtitle {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: var(--fontFamily-dm_sans);
+    font-size: var(--fontSize-title-2);
+    letter-spacing: var(--letterSpacing-1);
+    font-weight: 600;
+    margin: 20px 0;
+  }
+  .home-Card-Img{
+    // add box shadow
+    box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.156);
+    
+  }
+  .home-Card-Text-Ctn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .home-Card-Head {
+    font-family: var(--fontFamily-dm_sans);
+    font-size: var(--fontSize-body-3);
+    letter-spacing: var(--letterSpacing-1);
+  }
+  .home-Card-Des {
+    font-family: var(--fontFamily-dm_sans);
+    font-size: var(--fontSize-label-1);
+    letter-spacing: var(--letterSpacing-1);
+  }
