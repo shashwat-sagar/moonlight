@@ -144,14 +144,15 @@ const Footer = () => {
         </div>
         <div className="footer-bottom">
           <p className="copyright">
-            &copy; 2024 Moonlight Caterer. All Rights Reserved | Crafted by{" "}
+            &copy; 2024 Moonlight Caterer. All Rights Reserved 
+            {/* | Crafted by{" "}
             <a
               href="https://shashwatsagar.me"
               target="_blank"
               className="link"
             >
               NIC Team
-            </a>
+            </a> */}
           </p>
         </div>
       </div>
